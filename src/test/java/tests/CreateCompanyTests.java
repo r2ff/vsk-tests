@@ -53,7 +53,7 @@ public class CreateCompanyTests extends BaseTests {
 
     @Test
     @DisplayName("Отправка запроса с пустым body")
-    void createCompanyWithEmptyBoyTest() {
+    void createCompanyWithEmptyBodyTest() {
 
         CreateCompanyResponse createCompanyResponse =
                 step("Отправка POST запроса", () -> {
